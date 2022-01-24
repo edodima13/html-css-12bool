@@ -134,12 +134,12 @@
     justify-content: flex-end;
 }
 
-.flex-around{
-    justify-content: center;
+.col-12 .flex-around{
+    justify-content: space-around;
 }
 
-.flex-between{
-    justify-content: flex-end;
+.col-12 .flex-between{
+    justify-content: space-between;
 }
 
 /*Flex-align*/
