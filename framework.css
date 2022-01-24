@@ -120,7 +120,7 @@
     margin-left: calc((100% / 12) * 11);
 }
 
-/*Flex*/
+/*Flex-justify*/
 
 .flex-start{
     justify-content: flex-start;
@@ -133,6 +133,39 @@
 .flex-end{
     justify-content: flex-end;
 }
+
+.flex-around{
+    justify-content: center;
+}
+
+.flex-between{
+    justify-content: flex-end;
+}
+
+/*Flex-align*/
+
+body .align-top{
+    align-items: flex-start;
+}
+
+body .align-middle{
+    align-items: center;
+}
+
+body .align-bottom{
+    align-items: flex-end;
+}
+
+/*height*/
+.row .height-m{
+    max-height: 20px;
+}
+
+/*padding*/
+.row .padding-m{
+    padding: 40px;
+}
+
 
 /*debug*/
 
